@@ -50,11 +50,13 @@ Al final de éste documento se muestra una **_Demo_** funcional y un **_CodeSand
 
 ### **_Slide Info_**
 
-<h4 style="color:gray">PROBLEM</h4>
+<br/>
+
+#### PROBLEM
 
 En el modo mobile. Al seleccionar una ruta, no se muestra la información de la ruta ni tampoco el listado de los cursos que contiene.
 
-<h4 style="color:green">FIXED</h4>
+#### FIXED
 
 Se implementó una ventana _**slide**_ para mostrarse cada que se haga click en una ruta.
 
@@ -68,15 +70,17 @@ Tanto el _div_ _**mask**_ como el botón _**close**_ al hacer click en ellos, ce
 | ---------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
 | ![Problem Click Nothing](./design_fixes_images/old_click_nothing_edited.png) | ![Fix Open Slide](./design_fixes_images/fix_click_open_slide_edited.png) |
 
-<br/>
+<br/><br/>
 
 ### **_Scroll_ Horizontal en Categorias**
 
-<h4 style="color:gray">PROBLEM</h4>
+<br/>
+
+#### PROBLEM
 
 Al hacer _scroll_ horizontalmente en el componente de categorías, se arrastra también la sección de listado de rutas.
 
-<h4 style="color:green">FIXED</h4>
+#### FIXED
 
 La sección de listado de rutas ya no se moverá al hacer _scroll_ horizontalmente en el componente de categorías.
 
@@ -86,15 +90,17 @@ La sección de listado de rutas ya no se moverá al hacer _scroll_ horizontalmen
 | ------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------- |
 | ![Problem Scroll Categories](./design_fixes_images/old_scroll_categories_edited.png) | ![Fix Scroll Categories](./design_fixes_images/fix_scroll_categories_edited.png) |
 
-<br/>
+<br/><br/>
 
 ### **_Scroll_ Vertical en Listado de Rutas**
 
-<h4 style="color:gray">PROBLEM</h4>
+<br/>
+
+#### PROBLEM
 
 Al hacer _scroll_ verticalmente en el listado de rutas, el componente de categorías se mueve con el listado haciendolo desaparecer al hacer _scroll_ hacia abajo.
 
-<h4 style="color:green">FIXED</h4>
+#### FIXED
 
 La sección categorías ya no se moverá al hacer _scroll_ verticalmente en el listado de rutas.
 
@@ -104,15 +110,17 @@ Así mismo, se han implementado unos botones de navegación para poder navegar e
 | ----------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
 | ![Problem Categories Disappear on Scroll Down](./design_fixes_images/old_categories_disapear_on_scroll_down_edited.png) | ![Fix Categories Persists on Scroll Donw](./design_fixes_images/fix_categories_persist_on_scroll_down_edited.png) |
 
-<br/>
+<br/><br/>
 
 ### **Botones de navegación en modo _mobile_ (UX)**
 
-<h4 style="color:gray">PROBLEM</h4>
+<br/>
+
+#### PROBLEM
 
 En el modo para dispositivo móviles, la sección de categorías es difícil de acceder para el pulgar de la mano porque están en la parte superior de la pantalla.
 
-<h4 style="color:green">FIXED</h4>
+#### FIXED
 
 Se implementaron botones de navegación cercanos al dedo pulgar de la mano para poder navegar entre las categorías.
 
