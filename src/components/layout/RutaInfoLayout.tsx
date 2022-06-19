@@ -29,6 +29,7 @@ export const RutaInfoLayout: FC<RutaInfoLayoutProps> = ({ ruta }) => {
                imagen={ruta?.imagen}
                iconClass={ruta?.iconClass}
                titleAlt={ruta?.nombre}
+               stackType={ruta?.stackType}
             />
             <TextMutedRutaInfo
                nombre={ruta?.nombre}

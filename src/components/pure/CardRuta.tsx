@@ -1,8 +1,8 @@
 import { FC, useEffect, useRef } from 'react';
 import { IHojaRuta } from '../../models/hojaRuta.class';
 
-import { TbRoute } from 'react-icons/tb';
 import { IoIosArrowForward } from 'react-icons/io';
+import { GetIcon } from './GetIcon';
 
 interface CardRutaProps {
    ruta: IHojaRuta;
@@ -10,8 +10,6 @@ interface CardRutaProps {
    onSelect: (ruta: IHojaRuta) => void;
 }
 export const CardRuta: FC<CardRutaProps> = ({ ruta, isSelected, onSelect }) => {
-   const selectButtonRef = useRef<HTMLDivElement | null>(null);
-
    return (
       <div
          onClick={() => onSelect(ruta)}
@@ -46,13 +44,15 @@ export const CardRuta: FC<CardRutaProps> = ({ ruta, isSelected, onSelect }) => {
              * //Todo: ésta implementación debe mejorarse
              *
              * Estaba usando imagenes hasta que encontré los iconos css,
-             *  asi que lo implementé así para dejar las dos opciones.
+             *  asi que lo implementé así para dejar las tres opciones.
              *  No quise entrar más en detalle.
              */}
             {ruta.iconClass !== '' ? (
                <i className={ruta.iconClass} />
-            ) : (
+            ) : ruta.imagen !== '' ? (
                <img src={ruta.imagen} alt={ruta.nombre} />
+            ) : (
+               <GetIcon type={ruta.stackType} />
             )}
          </div>
          <div className="flex-grow">
@@ -60,7 +60,6 @@ export const CardRuta: FC<CardRutaProps> = ({ ruta, isSelected, onSelect }) => {
             <p className="text-sm">{ruta.descripcion}</p>
          </div>
          <div
-            ref={selectButtonRef}
             className={`
                   flex-shrink-0
                   flex justify-center items-center

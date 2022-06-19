@@ -1,11 +1,7 @@
 import React, { FC, useEffect, useRef } from 'react';
 import { ICategoria } from '../../models/categoria.class';
-import { TStackType } from '../../models/hojaRuta.class';
 
-import { BiCodeBlock } from 'react-icons/bi';
-import { ImMobile, ImStack } from 'react-icons/im';
-import { CgGames, CgScreen } from 'react-icons/cg';
-import { FiDatabase } from 'react-icons/fi';
+import { GetIcon } from './GetIcon';
 
 interface ButtonCategoriaProps {
    categoria: ICategoria;
@@ -72,23 +68,3 @@ export const ButtonCategoria: FC<ButtonCategoriaProps> = ({
       </button>
    );
 };
-
-function GetIcon({ type }: { type: TStackType }) {
-   switch (type) {
-      case '0dev':
-         return <BiCodeBlock />;
-      case 'fullstack':
-         return <ImStack />;
-      case 'frontend':
-         return <CgScreen />;
-      case 'backend':
-         return <FiDatabase />;
-      case 'mobile':
-         return <ImMobile />;
-      case 'videogames':
-         return <CgGames />;
-
-      default:
-         return <></>;
-   }
-}
