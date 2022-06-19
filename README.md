@@ -4,6 +4,13 @@
 
 <br/>
 
+![Watchers](https://img.shields.io/github/watchers/devcorel/propuestas-open-bootcamp-ui-modal-hoja-de-ruta.svg)
+![Visitors](https://visitor-badge.glitch.me/badge?page_id=devcorel.propuestas-open-bootcamp-ui-modal-hoja-de-ruta)
+![Starts](https://img.shields.io/github/stars/devcorel/propuestas-open-bootcamp-ui-modal-hoja-de-ruta.svg)
+![Forks](https://img.shields.io/github/forks/devcorel/propuestas-open-bootcamp-ui-modal-hoja-de-ruta.svg)
+![Follow Me](https://img.shields.io/github/followers/devcorel.svg?style=social&label=Follow&maxAge=2592000)<br/>
+<br/>
+
 ## Descripción
 
 <br/>
@@ -19,6 +26,8 @@ Al final de éste documento se muestra una **Demo** funcional y un **CodeSandbox
 
 <br/>
 
+-  [Vite](https://vitejs.dev/) - Para la creación del proyecto.
+
 -  [React](https://reactjs.org/) - Para el desarrollo de la interfaz
 
 -  [Typescript](https://www.typescriptlang.org/) - Para el desarrollo del código
@@ -28,6 +37,8 @@ Al final de éste documento se muestra una **Demo** funcional y un **CodeSandbox
 -  [React Icons](https://react-icons.github.io/react-icons) - Para los iconos de los botones
 
 -  [DevIcon ❤️](https://devicon.dev/) - Para los iconos de las tecnologías
+
+<br/>
 
 ---
 
@@ -41,7 +52,7 @@ Al final de éste documento se muestra una **Demo** funcional y un **CodeSandbox
 
 <br/>
 
-<h4 style="color:gray">OLD</h4>
+<h4 style="color:gray">PROBLEM</h4>
 
 En el modo mobile. Al seleccionar una ruta, no se muestra la información de la ruta ni tampoco el listado de los cursos que contiene.
 
@@ -57,9 +68,9 @@ Tanto el _div_ _**mask**_ como el botón _**close**_ al hacer click en ellos, ce
 
 <br/>
 
-| OLD                                                                      | FIXED                                                                    |
-| ------------------------------------------------------------------------ | ------------------------------------------------------------------------ |
-| ![Old Click Nothing](./design_fixes_images/old_click_nothing_edited.png) | ![Fix Open Slide](./design_fixes_images/fix_click_open_slide_edited.png) |
+| PROBLEM                                                                      | FIXED                                                                    |
+| ---------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| ![Problem Click Nothing](./design_fixes_images/old_click_nothing_edited.png) | ![Fix Open Slide](./design_fixes_images/fix_click_open_slide_edited.png) |
 
 <br/>
 <br/>
@@ -68,7 +79,7 @@ Tanto el _div_ _**mask**_ como el botón _**close**_ al hacer click en ellos, ce
 
 <br/>
 
-<h4 style="color:gray">OLD</h4>
+<h4 style="color:gray">PROBLEM</h4>
 
 Al hacer _scroll_ horizontalmente en el componente de categorías, se arrastra también la sección de listado de rutas.
 
@@ -80,9 +91,9 @@ La sección de listado de rutas ya no se moverá al hacer _scroll_ horizontalmen
 
 <br/>
 
-| OLD                                                                              | FIXED                                                                            |
-| -------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
-| ![Old Scroll Categories](./design_fixes_images/old_scroll_categories_edited.png) | ![Fix Scroll Categories](./design_fixes_images/fix_scroll_categories_edited.png) |
+| PROBLEM                                                                              | FIXED                                                                            |
+| ------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------- |
+| ![Problem Scroll Categories](./design_fixes_images/old_scroll_categories_edited.png) | ![Fix Scroll Categories](./design_fixes_images/fix_scroll_categories_edited.png) |
 
 <br/>
 <br/>
@@ -91,7 +102,7 @@ La sección de listado de rutas ya no se moverá al hacer _scroll_ horizontalmen
 
 <br/>
 
-<h4 style="color:gray">OLD</h4>
+<h4 style="color:gray">PROBLEM</h4>
 
 Al hacer _scroll_ verticalmente en el listado de rutas, el componente de categorías se mueve con el listado haciendolo desaparecer al hacer _scroll_ hacia abajo.
 
@@ -105,9 +116,9 @@ Así mismo, se han implementado unos botones de navegación para poder navegar e
 
 <br/>
 
-| OLD                                                                                                                 | FIXED                                                                                                             |
-| ------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
-| ![Old Categories Disappear on Scroll Down](./design_fixes_images/old_categories_disapear_on_scroll_down_edited.png) | ![Fix Categories Persists on Scroll Donw](./design_fixes_images/fix_categories_persist_on_scroll_down_edited.png) |
+| PROBLEM                                                                                                                 | FIXED                                                                                                             |
+| ----------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| ![Problem Categories Disappear on Scroll Down](./design_fixes_images/old_categories_disapear_on_scroll_down_edited.png) | ![Fix Categories Persists on Scroll Donw](./design_fixes_images/fix_categories_persist_on_scroll_down_edited.png) |
 
 <br/>
 <br/>
@@ -116,7 +127,7 @@ Así mismo, se han implementado unos botones de navegación para poder navegar e
 
 <br/>
 
-<h4 style="color:gray">OLD</h4>
+<h4 style="color:gray">PROBLEM</h4>
 
 En el modo para dispositivo móviles, la sección de categorías es difícil de acceder para el pulgar de la mano porque están en la parte superior de la pantalla.
 
@@ -128,9 +139,9 @@ Se implementaron botones de navegación cercanos al dedo pulgar de la mano para 
 
 <br/>
 
-| OLD                                                                                                              | FIXED                                                                                                             |
-| ---------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
-| ![Old Categories Big Thumb Distance](./design_fixes_images/old_categories_without_button_navigations_edited.png) | ![Fix Categories Big Thumb Distance](./design_fixes_images/fix_categories_button_navigation_on_mobile_edited.png) |
+| PROBLEM                                                                                                              | FIXED                                                                                                             |
+| -------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| ![Problem Categories Big Thumb Distance](./design_fixes_images/old_categories_without_button_navigations_edited.png) | ![Fix Categories Big Thumb Distance](./design_fixes_images/fix_categories_button_navigation_on_mobile_edited.png) |
 
 ---
 
@@ -142,6 +153,26 @@ Se implementaron botones de navegación cercanos al dedo pulgar de la mano para 
 
 [Demo](https://comming.soon/)
 
-[CodeSandBox](https://comming.soon/)
+[Play in CodeSandBox](https://comming.soon/)
 
 [GitHub](https://comming.soon/)
+
+<br/>
+
+---
+
+<br/>
+
+![Open Bootcamp](https://badgen.net/badge/Thanks!/OpenBootcamp/blue?icon=kofi)
+
+<br/><br/><br/><br/>
+
+![With Love <3](https://forthebadge.com/images/badges/built-with-love.svg)
+
+---
+
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Zorin Os](https://img.shields.io/badge/Zorin%20OS-0CC1F3?style=for-the-badge&logo=zorin&logoColor=white)
+![Visual Code](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
+![Typescript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![ReactJs](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
