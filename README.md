@@ -140,7 +140,7 @@ Se implementaron botones de navegación cercanos al dedo pulgar de la mano para 
 
 [Demo](https://ui-modal-hoja-de-ruta.vercel.app/)
 
-[Play in CodeSandBox](https://codesandbox.io/s/component-ui-hoja-de-ruta-9cl08i)
+[Play in CodeSandBox](https://codesandbox.io/s/open-bootcamp-ui-component-hoda-de-ruta-f6w97q)
 
 [GitHub](https://github.com/devcorel/propuestas-open-bootcamp-ui-modal-hoja-de-ruta)
 
