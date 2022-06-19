@@ -9,8 +9,10 @@ export const RightContainer = () => {
    const $rightContainer = useRef<HTMLDivElement>(null);
 
    useEffect(() => {
-      $rightContainer.current!.scrollTo({ top: 0, behavior: 'smooth' });
-   });
+      if (isOpenRutaInfo) {
+         $rightContainer.current!.scrollTo({ top: 0, behavior: 'smooth' });
+      }
+   }, [isOpenRutaInfo, rutaSelected]);
 
    return (
       <>
