@@ -16,7 +16,7 @@
 <br/>
 A continuación comparto algunos cambios que me gustarían añadieran al componente modal de selección de hoja de ruta.
 
-Al final de éste documento se muestra una **Demo** funcional y un **CodeSandbox** para interactuar con el código.
+Al final de éste documento se muestra una **_Demo_** funcional y un **_CodeSandbox_** para interactuar con el código en tiempo real.
 
 ---
 
@@ -50,13 +50,9 @@ Al final de éste documento se muestra una **Demo** funcional y un **CodeSandbox
 
 ### **_Slide Info_**
 
-<br/>
-
 <h4 style="color:gray">PROBLEM</h4>
 
 En el modo mobile. Al seleccionar una ruta, no se muestra la información de la ruta ni tampoco el listado de los cursos que contiene.
-
-<br/>
 
 <h4 style="color:green">FIXED</h4>
 
@@ -73,17 +69,12 @@ Tanto el _div_ _**mask**_ como el botón _**close**_ al hacer click en ellos, ce
 | ![Problem Click Nothing](./design_fixes_images/old_click_nothing_edited.png) | ![Fix Open Slide](./design_fixes_images/fix_click_open_slide_edited.png) |
 
 <br/>
-<br/>
 
 ### **_Scroll_ Horizontal en Categorias**
-
-<br/>
 
 <h4 style="color:gray">PROBLEM</h4>
 
 Al hacer _scroll_ horizontalmente en el componente de categorías, se arrastra también la sección de listado de rutas.
-
-<br/>
 
 <h4 style="color:green">FIXED</h4>
 
@@ -96,17 +87,12 @@ La sección de listado de rutas ya no se moverá al hacer _scroll_ horizontalmen
 | ![Problem Scroll Categories](./design_fixes_images/old_scroll_categories_edited.png) | ![Fix Scroll Categories](./design_fixes_images/fix_scroll_categories_edited.png) |
 
 <br/>
-<br/>
 
 ### **_Scroll_ Vertical en Listado de Rutas**
-
-<br/>
 
 <h4 style="color:gray">PROBLEM</h4>
 
 Al hacer _scroll_ verticalmente en el listado de rutas, el componente de categorías se mueve con el listado haciendolo desaparecer al hacer _scroll_ hacia abajo.
-
-<br/>
 
 <h4 style="color:green">FIXED</h4>
 
@@ -114,24 +100,17 @@ La sección categorías ya no se moverá al hacer _scroll_ verticalmente en el l
 
 Así mismo, se han implementado unos botones de navegación para poder navegar entre las categorías sin hacer _scroll_.
 
-<br/>
-
 | PROBLEM                                                                                                                 | FIXED                                                                                                             |
 | ----------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
 | ![Problem Categories Disappear on Scroll Down](./design_fixes_images/old_categories_disapear_on_scroll_down_edited.png) | ![Fix Categories Persists on Scroll Donw](./design_fixes_images/fix_categories_persist_on_scroll_down_edited.png) |
 
 <br/>
-<br/>
 
 ### **Botones de navegación en modo _mobile_ (UX)**
-
-<br/>
 
 <h4 style="color:gray">PROBLEM</h4>
 
 En el modo para dispositivo móviles, la sección de categorías es difícil de acceder para el pulgar de la mano porque están en la parte superior de la pantalla.
-
-<br/>
 
 <h4 style="color:green">FIXED</h4>
 
@@ -151,11 +130,11 @@ Se implementaron botones de navegación cercanos al dedo pulgar de la mano para 
 
 <br/>
 
-[Demo](https://comming.soon/)
+[Demo](https://ui-modal-hoja-de-ruta.vercel.app/)
 
-[Play in CodeSandBox](https://comming.soon/)
+[Play in CodeSandBox](https://codesandbox.io/s/component-ui-hoja-de-ruta-9cl08i)
 
-[GitHub](https://comming.soon/)
+[GitHub](https://github.com/devcorel/propuestas-open-bootcamp-ui-modal-hoja-de-ruta)
 
 <br/>
 
