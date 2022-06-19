@@ -118,7 +118,7 @@ Así mismo, se han implementado unos botones de navegación para poder navegar e
 
 #### PROBLEM
 
-En el modo para dispositivo móviles, la sección de categorías es difícil de acceder para el pulgar de la mano porque están en la parte superior de la pantalla.
+En el modo para dispositivos móviles, la sección de categorías es difícil de acceder para el pulgar de la mano porque están en la parte superior de la pantalla.
 
 #### FIXED
 
