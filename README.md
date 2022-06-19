@@ -46,9 +46,9 @@ Al final de éste documento se muestra una **_Demo_** funcional y un **_CodeSand
 
 ## Implementaciones
 
-<br/>
+<br/><br/>
 
-### **_Slide Info_**
+### **1.- _Slide Info_**
 
 <br/>
 
@@ -58,7 +58,7 @@ En el modo mobile. Al seleccionar una ruta, no se muestra la información de la 
 
 #### FIXED
 
-Se implementó una ventana _**slide**_ para mostrarse cada que se haga click en una ruta.
+Se implementó una ventana _**slide**_ para mostrarse cada vez que se haga click en una ruta.
 
 Se añade un efecto _**blur**_, un _div_ _**mask**_ y un botón _**close**_ para cerrar el slide.
 
@@ -72,7 +72,7 @@ Tanto el _div_ _**mask**_ como el botón _**close**_ al hacer click en ellos, ce
 
 <br/><br/>
 
-### **_Scroll_ Horizontal en Categorias**
+### **2.- _Scroll_ Horizontal en Categorias**
 
 <br/>
 
@@ -92,7 +92,7 @@ La sección de listado de rutas ya no se moverá al hacer _scroll_ horizontalmen
 
 <br/><br/>
 
-### **_Scroll_ Vertical en Listado de Rutas**
+### **3.- _Scroll_ Vertical en Listado de Rutas**
 
 <br/>
 
@@ -112,7 +112,7 @@ Así mismo, se han implementado unos botones de navegación para poder navegar e
 
 <br/><br/>
 
-### **Botones de navegación en modo _mobile_ (UX)**
+### **4.- Botones de navegación en modo _mobile_ (UX)**
 
 <br/>
 
