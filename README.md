@@ -4,13 +4,6 @@
 
 <br/>
 
-![Watchers](https://img.shields.io/github/watchers/devcorel/propuestas-open-bootcamp-ui-modal-hoja-de-ruta.svg)
-![Visitors](https://visitor-badge.glitch.me/badge?page_id=devcorel.propuestas-open-bootcamp-ui-modal-hoja-de-ruta)
-![Starts](https://img.shields.io/github/stars/devcorel/propuestas-open-bootcamp-ui-modal-hoja-de-ruta.svg)
-![Forks](https://img.shields.io/github/forks/devcorel/propuestas-open-bootcamp-ui-modal-hoja-de-ruta.svg)
-![Follow Me](https://img.shields.io/github/followers/devcorel.svg?style=social&label=Follow&maxAge=2592000)<br/>
-<br/>
-
 ## Descripción
 
 <br/>
